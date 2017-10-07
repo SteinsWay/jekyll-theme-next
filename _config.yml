@@ -1,13 +1,14 @@
+
 # ---------------------------------------------------------------
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
 # Site
-title: steinsGate
-subtitle:steins的博客
-description:boundless=lessbound 用有界的人性探寻宇宙的边界
-author: steinsWay
+title: Simpleyyt
+subtitle: Yitao's Blog
+description: Too simple, sometimes naive.
+author: Simpleyyt
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -16,10 +17,10 @@ date_format: '%Y-%m-%d'
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
 baseurl:
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 
 # Pagination
-paginate: 10
+paginate: 20
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 10
@@ -35,7 +36,7 @@ paginate: 10
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md"]
 
 # Separator
-#excerpt_separator: <!-- more -->
+excerpt_separator: <!--more-->
 
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
@@ -66,19 +67,21 @@ feed:
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
 plugins:
 # jemoji conficts with toc in some no-ascii post
-# - jemoji
+ - jemoji
  - jekyll-sitemap
  - jekyll-feed
+
+alipay: http://p1.bpimg.com/567571/9a4a158daee8aa69.png
 
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: /assets/images/author.jpeg
 
 # Set default keywords (Use a comma to separate)
-keywords: "程序员,计算机,网络,数学,编程,program,network,mathmatics,hacker,技术,日本,旅游,美食"
+keywords: "Jekyll, NexT, simpleyyt, yitao"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -86,7 +89,7 @@ keywords: "程序员,计算机,网络,数学,编程,program,network,mathmatics,h
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 # icon between year and author @Footer
 authoricon: heart
@@ -116,13 +119,11 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  个人主页: /
+  home: /
   #categories: /categories/
   #about: /about/
-  学习笔记: /notes/
-  技术资料: /sources/
-  life in japan: /life/
-  数学: /math/
+  archives: /archives/
+  tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -137,10 +138,10 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
-  notes: th
+  categories: th
   schedule: calendar
   tags: tags
-  sources: archive
+  archives: archive
   sitemap: sitemap
   commonweal: heartbeat
 
@@ -214,8 +215,9 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/simpleyyt
+  知乎: http://www.zhihu.com/people/yaoyit
 
 
 # Social Links Icons
@@ -234,7 +236,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/author.jpeg
 
 
 # Table Of Contents in the Sidebar
@@ -265,7 +267,7 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+  display: hide
   #display: always
   #display: hide
   #display: remove
@@ -275,7 +277,7 @@ sidebar:
   offset_float: 0
 
   # Back to top in sidebar
-  b2t: true
+  b2t: false
 
   # Scroll percent label in b2t button
   scrollpercent: false
@@ -363,26 +365,26 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: true
+  enable: false
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
-han: true
+han: false
 
 # Swiftype Search API Key
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics:989380aa92c93194ce83f371226c4bf1
+baidu_analytics: 70b7e141dfc0ea2b204682f94ab2e01a
 
 # Duoshuo ShortName
 #duoshuo_shortname:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: simpleyyt
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -416,7 +418,7 @@ changyan:
 ##  type: button
 
 # Share
-#jiathis:
+jiathis: true
 # Warning: JiaThis does not support https.
 #add_this_id:
 
@@ -425,10 +427,10 @@ changyan:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: hxyd6b4vb-uzYY6dVuzz4KXhScoVoEUjtiRWYSJVlrY
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-67994495-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
