@@ -5,9 +5,9 @@
 
 # Site
 title: steinsGate
-subtitle:
-description:
-author: steins
+subtitle:steins的博客 | steinsWay
+description:boundless=lessbound 用有界的人性探寻宇宙的边界
+author: steinsWay
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -78,7 +78,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "程序员,计算机,网络,数学,编程,program,network,mathmatics,hacker,技术,日本,旅游,美食"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -116,11 +116,13 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
+  个人主页: /
   #categories: /categories/
   #about: /about/
-  archives: /archives/
-  tags: /tags/
+  学习笔记: /notes/
+  技术资料: /sources/
+  life in japan: /life/
+  数学: /math/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -135,10 +137,10 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
-  categories: th
+  notes: th
   schedule: calendar
   tags: tags
-  archives: archive
+  sources: archive
   sitemap: sitemap
   commonweal: heartbeat
 
@@ -361,18 +363,18 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
-han: false
+han: true
 
 # Swiftype Search API Key
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics:989380aa92c93194ce83f371226c4bf1
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -550,7 +552,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
