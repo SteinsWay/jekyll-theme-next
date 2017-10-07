@@ -79,7 +79,7 @@ plugins:
 favicon: /assets/images/author.jpeg
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT, simpleyyt, yitao"
+keywords: "计算机,编程,计算机网络,数学,日本,技术,学习,黑客,操作系统,programe,net,os,japan,mathmatics,hacker"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -105,7 +105,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
@@ -119,10 +119,10 @@ index_with_subtitle: false
 menu:
   home: /
   #categories: /categories/
-  #about: /about/
+  about: /about/
   archives: /archives/
   tags: /tags/
-  #sitemap: /sitemap.xml
+  sitemap: /sitemap.xml
   #commonweal: /404.html
 
 
@@ -273,7 +273,7 @@ sidebar:
   offset_float: 0
 
   # Back to top in sidebar
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button
   scrollpercent: false
