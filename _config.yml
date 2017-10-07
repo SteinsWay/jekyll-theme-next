@@ -7,7 +7,7 @@
 # Site
 title: steinsGate
 subtitle: stein's Blog
-description: 谁动了我的博客
+description: boundless=lessbound 探索宇宙的边界
 author: SteinsWay
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -232,7 +232,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: /assets/images/author.jpeg
+avatar: /assets/images/avatar.gif
 
 
 # Table Of Contents in the Sidebar
@@ -242,7 +242,7 @@ toc:
   # Automatically add list number to toc.
   number: true
 
-  # If true, all words will placed on next lines if header width longer then sidebar width.
+  # If true, all words will placed on next lines if header width longer than sidebar width.
   wrap: false
 
 
