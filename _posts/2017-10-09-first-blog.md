@@ -33,7 +33,7 @@ categories:
 
 （外设全是razer RPG变色的，机械键盘手感还是很好的～～）
 
-![IMG_20171009_135706](https://github.com/SteinsWay/steinsWay.github.io/blob/master/assets/images/IMG_20171009_135706.jpg)
+![IMG_20171009_135706](../assets/images/IMG_20171009_135706.jpg)
 
 （从桌子到电脑每一个配件都是自己亲手装上去的。。。）
 
@@ -116,7 +116,7 @@ libreoffice也很好用啊，浏览器也应有尽有啊，还自带了python啊
 
 唯一有点意思的地方，就是博客的文本格式是MARKDOWN格式的，HTML写多了，真觉得不好玩，话说现在正在使用的这个markdown编辑器好酷炫有木有啊，不管输入什么样的标签+内容，马上就能够实时的展示出来，又简洁颜值又高又方便又不卡，简直和哥一个样。还有一个像所有浏览器（IE从碗里滚粗）一样的调试工具，赛高～～～～～～～～～～～～
 
-![2017-10-09 16-04-42屏幕截图](https://github.com/SteinsWay/steinsWay.github.io/blob/master/assets/images/2017-10-09%2016-04-42%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+![2017-10-09 16-04-42屏幕截图](../assets/images/2017-10-09%2016-04-42%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 (界面又清爽又干净有木有啊～～，同时支持数学符号和各种其他符号输入～～)
 
@@ -124,7 +124,7 @@ libreoffice也很好用啊，浏览器也应有尽有啊，还自带了python啊
 
 首先是vitrulbox上安装kali linux
 
-![2017-10-09 16-49-07屏幕截图](https://github.com/SteinsWay/steinsWay.github.io/blob/master/assets/images/2017-10-09%2016-49-07%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+![2017-10-09 16-49-07屏幕截图](../assets/images/2017-10-09%2016-49-07%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 至于能够用它来做什么，呵呵，至少win10双系统的问题能够解决了～～
 
