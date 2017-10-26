@@ -29,7 +29,7 @@ categories:
 
 最近做了一些什么事呢，嘛～，上个月脑袋一热，想要打LOL，于是想着整一台台式机平时打打游戏。屁颠屁颠的逛了一圈秋叶原和池袋的softmap和bic camera，结果一发不可收拾，自己购买配件组装了一台狂拽酷炫屌炸天的台式电脑!
 
-![IMG_20171009_135631](https://github.com/SteinsWay/steinsWay.github.io/blob/master/assets/images/IMG_20171009_135631.jpg)
+![IMG_20171009_135631](../assets/images/IMG_20171009_135631.jpg)
 
 （外设全是razer RPG变色的，机械键盘手感还是很好的～～）
 
